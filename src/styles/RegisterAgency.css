@@ -1,0 +1,84 @@
+.register-agency-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .register-agency-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  textarea.form-input {
+    height: 100px;
+    resize: none;
+  }
+  
+  .register-agency-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .register-agency-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .character-counter {
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+    margin-top: 5px;
+  }
+  
+  .error-message, .success-message {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    background-color: red;
+  }
+  
+  .success-message {
+    background-color: green;
+  }
+  
